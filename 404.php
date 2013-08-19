@@ -13,14 +13,14 @@
 					<br>
 					<br>Or, maybe you just wanted to see a cat video!</p>
 					<?php
-$min=1;  $max=8;  //the number of videos on your playlist
+$min=1;  $max=8;  //the random parameters
 ?>
 <object width="746" height="413"><param name="movie" value="http://www.youtube.com/p/CAAA1242CA3E37B4?version=3&hl=es_ES&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
 <?php
 //in index the script randomize the numbre between $min $max
 echo "
-<embed src=\"http://www.youtube.com/p/CAAA1242CA3E7B4?version=3&hl=es_ES&fs=1&index=".rand($min,$max)."\" type=\"application/x-shockwave-flash\" width=\"746\" height=\"413\" allowscriptaccess=\"always\" allowfullscreen=\"true\">
-</embed>
+<iframe src=\"http://www.youtube.com/embed/videoseries?list=PL2AC71FC1DAB7F216&index=".rand($min,$max)."\" 
+width=\"100%\" height=\"500\" frameborder=\"0\"></iframe>
 ";
 ?>
 </object>
