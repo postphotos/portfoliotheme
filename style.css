@@ -41,3 +41,7 @@ body {
 a, a:hover, a:visited {
 	color:#f00;
 }
+
+figure img {
+	padding-bottom: 15px;
+}
