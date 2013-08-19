@@ -9,13 +9,11 @@
 
 		
    <div class="row"><div class="large-4 columns">
-   <?php the_post_thumbnail(); ?></div>
+   the_post_thumbnail( array(640,640) );</div>
 		
 		<div class="large-8 columns">
-		<?php while ( have_posts() ) : the_post(); ?>
+		<?php while ( have_posts() ) : the_post(); ?></div></div>
 			<?php get_template_part( 'content', get_post_format() ); ?>
-		</div></div>
-		
 		<?php endwhile; ?>
 		
 		<?php else : ?>
