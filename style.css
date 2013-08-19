@@ -31,15 +31,15 @@ h4.subheader {
 }
 
 body {
-	background: #ddd;
+	background: #7F8C8D;
 }
 
 .row:not(.collapse), header.row, .gray {
-	background: #eee;
+	background: #ECF0F1;
 }
 
 a, a:hover, a:visited {
-	color:#f00;
+	color:#F9A931;
 }
 
 figure img {
