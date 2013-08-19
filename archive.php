@@ -7,18 +7,20 @@
 	
 		<?php /* Start the Loop */ ?>
 
-		// check if the post has a Post Thumbnail assigned to it.
-		<div class="row"><div class="large-4">
-		if ( has_post_thumbnail() ) { the_post_thumbnail(); } the_content();
+		
+   <div class="row"><div class="large-4">
+   <?php the_post_thumbnail(); ?>
 		</div></div>
+
 		<div class="row"><div class="large-8">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'content', get_post_format() ); ?>
+		</div></div>
+		
 		<?php endwhile; ?>
 		
 		<?php else : ?>
 			<?php get_template_part( 'content', 'none' ); ?>
-		</div></div>
 	<?php endif; // end have_posts() check ?>
 	
 	<?php /* Display navigation to next/previous pages when applicable */ ?>
