@@ -1,12 +1,12 @@
 	</div><!-- Row End -->
 </section><!-- Container End -->
-
-<div class="row full-width">
+<br><br>
+<div class="full-width">
 	<?php dynamic_sidebar("Footer"); ?>
 </div>
 
-<footer class="row full-width" role="contentinfo"><hr>
-	<div class="small-12 large-4 columns">
+<footer class="full-width" role="contentinfo"><hr>
+	<div class="small-12 large-4">
 		<p>&copy; <?php echo date('Y'); ?>, Leo Postovoit.</p>
 	</div>
 	
