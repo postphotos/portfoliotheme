@@ -6,6 +6,7 @@ Author:         Leo Postovoit
 Author URI:     http://postphotos.us/p/
 Template:       reverie
 Version:        0.0.1
+Color Pallete: 	http://www.colourlovers.com/palette/3000130/Novo_Site_TXT
 */
 
 @import url("../reverie/style.css");
@@ -56,4 +57,8 @@ figure img {
 
 h2, h2 * {
 	font-size: 1.2em;
+}
+
+.prefix.button {
+	background-color: #2980B9;
 }
