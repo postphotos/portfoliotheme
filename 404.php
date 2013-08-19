@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Row for main content area -->
-	<div class="small-12 large-10 large-centered columns" role="main">
+	<div class="small-12 large-10 small-centered columns" role="main">
 	
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
@@ -9,7 +9,7 @@
 			</header>
 			<div class="entry-content">
 				<div class="error">
-					<p class="bottom"><?php _e('The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'reverie'); ?>
+					<p class="bottom small-centered"><?php _e('The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'reverie'); ?>
 					<br>
 					<br><strong>Or, maybe you just wanted to see a unicorn video!</strong></p>
 					<?php
@@ -24,13 +24,13 @@ width=\"100%\" height=\"500\" frameborder=\"0\"></iframe>
 ";
 ?>
 </object>
-				</div>
-				<p><?php _e('Please try the following:', 'reverie'); ?></p>
-				<ul> 
+				</div><br><br>
+				<p class="small-centered"><?php _e('If you weren&#39;t looking for unicorns, Please try the following:', 'reverie'); ?></p>
+				<blockquote><ul> 
 					<li><?php _e('Check your spelling', 'reverie'); ?></li>
 					<li><?php printf(__('Return to the <a href="%s">home page</a>', 'reverie'), home_url()); ?></li>
 					<li><?php _e('Click the <a href="javascript:history.back()">Back</a> button', 'reverie'); ?></li>
-				</ul>
+				</ul></blockquote>
 			</div>
 		</article>
 
