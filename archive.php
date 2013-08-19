@@ -8,8 +8,10 @@
 		<?php /* Start the Loop */ ?>
 
 		
-   <div class="row"><div class="large-4 columns">
-   <?php the_post_thumbnail();></div>
+   <div class="row">
+   		<div class="large-4 columns">
+   		<?php the_post_thumbnail();?>
+   </div>
 		
 		<div class="large-8 columns">
 		<?php while ( have_posts() ) : the_post(); ?></div></div>
