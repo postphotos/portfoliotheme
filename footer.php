@@ -10,7 +10,7 @@
 		<p>&copy; <?php echo date('Y'); ?>, Leo Postovoit.</p>
 	</div>
 	
-	<div class="small-12 large-10 large-centered columns">
+	<div class="small-12 large-8 large-centered columns">
 		<?php wp_nav_menu(array('theme_location' => 'utility', 'container' => false, 'menu_class' => 'inline-list right')); ?>
 	</div>
 </footer>
