@@ -29,7 +29,7 @@ body {
 	background: #ddd;
 }
 
-.row, header.row {
+.row:not(.collapse), header.row {
 	background: #eee;
 }
 
