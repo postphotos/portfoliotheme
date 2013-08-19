@@ -11,7 +11,7 @@
 				<div class="error">
 					<p class="bottom small-centered"><?php _e('The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'reverie'); ?>
 					<br>
-					<br><strong>Or, maybe you just wanted to see a unicorn video!</strong></p>
+					<br><strong>Or, maybe you just wanted to see a random unicorn video!</strong></p>
 					<?php
 $min=1;  $max=8;  //the random parameters
 ?>
