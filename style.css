@@ -16,6 +16,10 @@ h1, h4, p, a {
 	font-family: 'Roboto', sans-serif;
 }
 
+h1, h4 {
+	text-align: center;
+}
+
 body {
 	background: #ddd;
 }
