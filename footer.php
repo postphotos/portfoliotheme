@@ -7,7 +7,7 @@
 
 <footer role="contentinfo"><hr>
 	
-	<div class="large-12" style="background: #eee;">
+	<div class="large-12" style="background: #eee!important;">
 
 	<div class="large-3 columns">
 		<p>&copy; <?php echo date('Y'); ?>, Leo Postovoit.</p>
