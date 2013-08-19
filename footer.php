@@ -1,13 +1,13 @@
 	</div><!-- Row End -->
 </section><!-- Container End -->
-<br><br>
+
 <div class="full-width">
 	<?php dynamic_sidebar("Footer"); ?>
 </div>
 
 <footer role="contentinfo"><hr>
 	
-	<div class="large-12"><div class="row">
+	<div class="large-12" style="background: #eee;">
 
 	<div class="large-3 columns">
 		<p>&copy; <?php echo date('Y'); ?>, Leo Postovoit.</p>
@@ -17,7 +17,7 @@
 		<?php wp_nav_menu(array('theme_location' => 'utility', 'container' => false, 'menu_class' => 'inline-list right')); ?>
 	</div>
 
-	</div></div>
+	</div>
 </footer>
 
 <?php wp_footer(); ?>
