@@ -17,9 +17,9 @@ h1, h4, p, a {
 }
 
 body {
-	background: #eee;
+	background: #ddd;
 }
 
 .row, header.row {
-	background: #ddd;
+	background: #eee;
 }
