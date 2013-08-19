@@ -45,3 +45,7 @@ a, a:hover, a:visited {
 figure img {
 	padding-bottom: 15px;
 }
+
+footer, .small-12 {
+	padding-top: 20px; border-top: 10px solid #2980B9;
+}
