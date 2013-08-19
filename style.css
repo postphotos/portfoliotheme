@@ -42,6 +42,10 @@ a, a:hover, a:visited {
 	color:#F9A931;
 }
 
+h1 a, h2 a {
+	color: #2980B9;
+}
+
 figure img {
 	padding-bottom: 15px;
 }
