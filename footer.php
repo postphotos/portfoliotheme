@@ -5,18 +5,19 @@
 	<?php dynamic_sidebar("Footer"); ?>
 </div>
 
-<footer class="full-width" role="contentinfo"><hr>
-	<div class="row"><div class="large-12"><div class="row">
+<footer role="contentinfo"><hr>
+	
+	<div class="large-12"><div class="row">
 
-	<div class="large-2 columns">
+	<div class="large-3 columns">
 		<p>&copy; <?php echo date('Y'); ?>, Leo Postovoit.</p>
 	</div>
 	
-	<div class="large-10 columns">
+	<div class="large-9 columns">
 		<?php wp_nav_menu(array('theme_location' => 'utility', 'container' => false, 'menu_class' => 'inline-list right')); ?>
 	</div>
-	
-	</div></div></div>
+
+	</div></div>
 </footer>
 
 <?php wp_footer(); ?>
