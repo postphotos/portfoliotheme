@@ -53,3 +53,7 @@ figure img {
 .gray {
 	padding-top: 20px; border-top: 10px solid #2980B9;
 }
+
+h2, h2 * {
+	font-size: 90%;
+}
