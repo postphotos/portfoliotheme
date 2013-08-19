@@ -5,7 +5,7 @@
 	
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
-				<h1 class="entry-title">This is not the page you're looking for.</h1>
+				<h1 class="entry-title small-centered">This is not the page you're looking for.</h1>
 			</header>
 			<div class="entry-content">
 				<div class="error">
@@ -20,7 +20,7 @@ $min=1;  $max=8;  //the random parameters
 //in index the script randomize the numbre between $min $max
 echo "
 <iframe src=\"http://www.youtube.com/embed/videoseries?list=PL2AC71FC1DAB7F216&autoplay=1&index=".rand($min,$max)."\" 
-width=\"100%\" height=\"500\" frameborder=\"0\"></iframe>
+width=\"100%\" height=\"300\" frameborder=\"0\" style=\"max-height:700px;\"></iframe>
 ";
 ?>
 </object>
