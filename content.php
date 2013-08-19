@@ -10,7 +10,10 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header>
 		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<?php justtime(); ?>
+		<?php
+
+			echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('Posted on %s at %s.', 'reverie'), get_the_time('l, F jS, Y'), get_the_time()) .'</time>';
+		?>
 	</header>
 	<div class="entry-content">
 		<?php the_content(__('Continue reading...', 'reverie')); ?>
