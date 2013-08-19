@@ -38,11 +38,11 @@ body {
 	background: #ECF0F1;
 }
 
-p a, li a, .banner * {
+p a, li a, h1 a {
 	color:#F9A931;
 }
 
-h1 a, h2 a {
+h2 a {
 	color: #2980B9;
 }
 
