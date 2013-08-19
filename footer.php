@@ -7,13 +7,13 @@
 
 <footer role="contentinfo"><hr>
 	
-	<div class="large-12" style="background: #eee!important;">
+	<div class="large-12">
 
-	<div class="large-3 columns">
+	<div class="large-3 columns gray">
 		<p>&copy; <?php echo date('Y'); ?>, Leo Postovoit.</p>
 	</div>
 	
-	<div class="large-9 columns">
+	<div class="large-9 columns gray">
 		<?php wp_nav_menu(array('theme_location' => 'utility', 'container' => false, 'menu_class' => 'inline-list right')); ?>
 	</div>
 

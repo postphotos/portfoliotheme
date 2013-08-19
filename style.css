@@ -34,7 +34,7 @@ body {
 	background: #ddd;
 }
 
-.row:not(.collapse), header.row {
+.row:not(.collapse), header.row, .gray {
 	background: #eee;
 }
 
