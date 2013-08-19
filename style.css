@@ -1,0 +1,25 @@
+/*
+Theme Name:     Postphotos dot ewe ess
+Theme URI:      http://postphotos.us
+Description:    Theme  based on Foundation
+Author:         Leo Postovoit
+Author URI:     http://postphotos.us/p/
+Template:       reverie
+Version:        0.0.1
+*/
+
+@import url("../reverie/style.css");
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,900,700,300,100");
+
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: #eee;
+}
+
+*.row {
+	background: #ddd;
+}
