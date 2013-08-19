@@ -1,21 +1,18 @@
 <?php get_header(); ?>
 
 <!-- Row for main content area -->
-	<div class="small-12 large-8 columns" role="main">
+	<div class="small-12 large-10 large-centered columns" role="main">
 	
 	<?php if ( have_posts() ) : ?>
 	
 		<?php /* Start the Loop */ ?>
-
 		
-   <div class="row">
+		
+		<?php while ( have_posts() ) : the_post(); ?><div class="row">
    		<div class="large-4 columns">
-   		<?php the_post_thumbnail();?>
-   </div>
-		
-		<div class="large-8 columns">
-		<?php while ( have_posts() ) : the_post(); ?></div></div>
-			<?php get_template_part( 'content', get_post_format() ); ?>
+   		<?php the_post_thumbnail();?></div>
+		<div class="large-8 columns"><?php get_template_part( 'content', get_post_format() ); ?>
+		</div></div>
 		<?php endwhile; ?>
 		
 		<?php else : ?>
