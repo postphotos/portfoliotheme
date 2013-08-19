@@ -13,6 +13,7 @@
    		<?php the_post_thumbnail();?></div>
 		<div class="large-8 columns"><?php get_template_part( 'content', get_post_format() ); ?>
 		</div></div>
+		<br><hr><br>
 		<?php endwhile; ?>
 		
 		<?php else : ?>
