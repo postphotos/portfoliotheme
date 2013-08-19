@@ -19,7 +19,7 @@ h1, h4, p, a {
 h1, h4 {
 	text-align: center; 
 }
-h1, h1 * {
+li.name h1, li.name h1 a {
 	color: #f00;
 }
 }
