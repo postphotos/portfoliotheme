@@ -26,7 +26,7 @@ width=\"100%\" height=\"500\" frameborder=\"0\"></iframe>
 </object>
 				</div><br><br>
 				<p class="small-centered"><?php _e('If you weren&#39;t looking for unicorns, Please try the following:', 'reverie'); ?></p>
-				<blockquote><ul> 
+				<blockquote style="border: none; color: #000;"><ul> 
 					<li><?php _e('Check your spelling', 'reverie'); ?></li>
 					<li><?php printf(__('Return to the <a href="%s">home page</a>', 'reverie'), home_url()); ?></li>
 					<li><?php _e('Click the <a href="javascript:history.back()">Back</a> button', 'reverie'); ?></li>
