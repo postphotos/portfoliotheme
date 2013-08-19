@@ -5,12 +5,12 @@
 	<?php dynamic_sidebar("Footer"); ?>
 </div>
 
-<footer class="full-width" role="contentinfo"><hr>
-	<div class="small-12 large-4">
+<footer class="row" role="contentinfo"><hr>
+	<div class="large-4">
 		<p>&copy; <?php echo date('Y'); ?>, Leo Postovoit.</p>
 	</div>
 	
-	<div class="small-12 large-8 large-centered columns">
+	<div class="large-8">
 		<?php wp_nav_menu(array('theme_location' => 'utility', 'container' => false, 'menu_class' => 'inline-list right')); ?>
 	</div>
 </footer>
