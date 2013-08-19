@@ -10,7 +10,7 @@
 		
 		<?php while ( have_posts() ) : the_post(); ?><div class="row">
    		<div class="large-4 columns">
-   		<?php the_post_thumbnail('medium');?></div>
+   		<?php the_post_thumbnail('thumbnail');?></div>
 		<div class="large-8 columns"><?php get_template_part( 'content', get_post_format() ); ?>
 		</div></div>
 		<br><hr style="border: 3px white solid;"><br>
