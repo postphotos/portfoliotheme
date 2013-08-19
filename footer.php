@@ -5,10 +5,8 @@
 	<?php dynamic_sidebar("Footer"); ?>
 </div>
 
-<footer role="contentinfo"><hr>
+<footer class="gray" role="contentinfo" style="bottom: -22px;"><hr>
 	
-	<div class="large-12">
-
 	<div class="large-3 columns gray">
 		<p>&copy; <?php echo date('Y'); ?>, Leo Postovoit.</p>
 	</div>
