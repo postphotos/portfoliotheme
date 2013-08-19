@@ -38,7 +38,7 @@ body {
 	background: #ECF0F1;
 }
 
-a, a:hover, a:visited {
+p a, li a {
 	color:#F9A931;
 }
 
