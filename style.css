@@ -38,7 +38,7 @@ body {
 	background: #ECF0F1;
 }
 
-p a, li a {
+p a, li a, .banner * {
 	color:#F9A931;
 }
 
