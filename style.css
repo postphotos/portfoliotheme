@@ -68,6 +68,6 @@ h2, h2 * {
 	border: 2px white solid;
 }
 
-.search-title {
+.search-title, .entry-title {
 	color: #3498DB;
 }
