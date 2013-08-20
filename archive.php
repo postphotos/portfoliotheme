@@ -16,7 +16,7 @@
    		<?php
 					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 					  the_post_thumbnail(large); }
-					else (()) {
+					else () {
 						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png" />'
 					}
 ?>
