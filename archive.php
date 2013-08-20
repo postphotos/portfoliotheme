@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Row for main content area -->
-	<div class="small-12 large-10 large-centered columns" role="main">
+	<div class="small-12 large-10 small-centered columns" role="main">
 	
 
 	<h1 class="search-title"> <?php single_cat_title(); ?> </h1>
@@ -12,13 +12,13 @@
 		
 		
 		<?php while ( have_posts() ) : the_post(); ?><div class="row">
-   		<div class="large-4 columns">
+   		<div class="large-4 small-centered columns">
    				<?php
 					if ( has_post_thumbnail() ) {
 					  the_post_thumbnail(large); 
 					}
 					else {
-						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png" class="small-centered">';
+						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png">';
 					}
 				?>
 
