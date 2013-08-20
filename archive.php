@@ -5,7 +5,7 @@
 	
 
 	<h1 class="search-title"> <?php single_cat_title(); ?> </h1>
-	<br><hr class="whitehr" /><br>
+	<hr class="whitehr" /><br>
 	<?php if ( have_posts() ) : ?>
 	
 		<?php /* Start the Loop */ ?>
