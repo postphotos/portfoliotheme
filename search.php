@@ -3,7 +3,8 @@
 <!-- Row for main content area -->
 	<div class="small-12 large-10 large-centered columns" role="main">
 	
-		<h2><?php _e('Showing search results for', 'reverie'); ?> "<?php echo get_search_query(); ?>"</h2>
+		<h1 style="color: #3498DB;"><?php _e('Showing search results for', 'reverie'); ?> "<?php echo get_search_query(); ?>"</h1>
+		<br><hr style="border: 2px white solid;"><br>
 	
 	<?php if ( have_posts() ) : ?>
 	
@@ -15,7 +16,7 @@
 		<p><a href=" <?php $permalink = get_permalink( $id ); ?>" title="<?php echo get_the_title(); ?>">Read...</a></p>
 
 		</div></div>
-		<br><hr style="border: 3px white solid;"><br>
+		<br><hr style="border: 2px white solid;"><br>
 		<?php endwhile; ?>
 		
 		<?php else : ?>
