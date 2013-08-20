@@ -39,7 +39,7 @@ body {
 	background: #ECF0F1;
 }
 
-p a, li a, h1 a {
+p a, li a, h1 a, h3 a {
 	color:#F9A931;
 }
 
@@ -62,4 +62,12 @@ h2, h2 * {
 .prefix.button {
 	background-color: #3498DB;
 	border-color: #2980B9;
+}
+
+.whitehr {
+	border: 2px white solid;
+}
+
+.search-title {
+	color: #3498DB;
 }

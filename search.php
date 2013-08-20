@@ -3,8 +3,8 @@
 <!-- Row for main content area -->
 	<div class="small-12 large-10 large-centered columns" role="main">
 	
-		<h1 style="color: #3498DB;"><?php _e('Showing search results for', 'reverie'); ?> "<?php echo get_search_query(); ?>"</h1>
-		<br><hr style="border: 2px white solid;"><br>
+		<h1 class="search-title"><?php _e('Showing search results for', 'reverie'); ?> "<?php echo get_search_query(); ?>"</h1>
+		<br><hr class="whitehr" /><br>
 	
 	<?php if ( have_posts() ) : ?>
 	
@@ -13,10 +13,10 @@
    		<div class="large-4 columns">
    		<?php the_post_thumbnail('large');?></div>
 		<div class="large-8 columns"><h2><?php echo get_the_title(); ?></h2>
-		<p><a href=" <?php $permalink = get_permalink( $id ); ?>" title="<?php echo get_the_title(); ?>">Read...</a></p>
+		<h3><a href=" <?php $permalink = get_permalink( $id ); ?>" title="<?php echo get_the_title(); ?>">View here</h3></p>
 
 		</div></div>
-		<br><hr style="border: 2px white solid;"><br>
+		<br><hr class="whitehr" /><br>
 		<?php endwhile; ?>
 		
 		<?php else : ?>

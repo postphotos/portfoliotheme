@@ -3,6 +3,8 @@
 <!-- Row for main content area -->
 	<div class="small-12 large-10 large-centered columns" role="main">
 	
+
+	<h1 class="search-title"><?php wp_title(); ?></h1>
 	<?php if ( have_posts() ) : ?>
 	
 		<?php /* Start the Loop */ ?>
@@ -13,7 +15,7 @@
    		<?php the_post_thumbnail('large');?></div>
 		<div class="large-8 columns"><?php get_template_part( 'content', get_post_format() ); ?>
 		</div></div>
-		<br><hr style="border: 3px white solid;"><br>
+		<br><hr class="whitehr" /><br>
 		<?php endwhile; ?>
 		
 		<?php else : ?>
