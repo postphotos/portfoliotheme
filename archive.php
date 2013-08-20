@@ -12,7 +12,7 @@
 		
 		
 		<?php while ( have_posts() ) : the_post(); ?><div class="row">
-   		<div class="large-4 columns">
+   		<div class="large-4 columns" style="text-align: center;">
    				<?php
 					if ( has_post_thumbnail() ) {
 					  the_post_thumbnail(large); 
