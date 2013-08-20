@@ -11,7 +11,9 @@
 		<?php while ( have_posts() ) : the_post(); ?><div class="row">
    		<div class="large-4 columns">
    		<?php the_post_thumbnail('large');?></div>
-		<div class="large-8 columns"><?php get_template_part( 'content', get_post_format() ); ?>
+		<div class="large-8 columns"><h2><?php echo get_the_title(); ?></h2>
+		<p><a href=" <?php $permalink = get_permalink( $id ); ?>" title="<?php echo get_the_title(); ?>">Read...</a></p>
+
 		</div></div>
 		<br><hr style="border: 3px white solid;"><br>
 		<?php endwhile; ?>
