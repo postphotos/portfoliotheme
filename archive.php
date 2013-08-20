@@ -22,7 +22,7 @@
 					}
 				?>
 
-   		 the_post_thumbnail('large');?></div>
+   		 </div>
 		<div class="large-8 columns"><?php get_template_part( 'content', get_post_format() ); ?>
 		</div></div>
 		<br><hr class="whitehr" /><br>
