@@ -11,8 +11,8 @@ Color Pallete: 	http://www.colourlovers.com/palette/3000130/Novo_Site_TXT
 
 @import url("../reverie/style.css");
 
-h1, h2, h3, h4, h5, h6, p, a {
-	font-family: 'Roboto', sans-serif;
+* {
+	font-family: 'Roboto'!important, sans-serif!important;
 }
 
 h1, h4 {
