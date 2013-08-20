@@ -60,5 +60,6 @@ h2, h2 * {
 }
 
 .prefix.button {
-	background-color: #2980B9;
+	background-color: #3498DB;
+	border-color: #2980B9;
 }
