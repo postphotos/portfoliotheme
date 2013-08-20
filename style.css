@@ -10,10 +10,8 @@ Color Pallete: 	http://www.colourlovers.com/palette/3000130/Novo_Site_TXT
 */
 
 @import url("../reverie/style.css");
-@import url("http://fonts.googleapis.com/css?family=Roboto:400,900,700,300,100");
 
-
-* {
+h1, h2, h3, h4, h5, h6, p, a {
 	font-family: 'Roboto', sans-serif;
 }
 
