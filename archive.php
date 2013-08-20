@@ -4,7 +4,7 @@
 	<div class="small-12 large-10 large-centered columns" role="main">
 	
 
-	<h1 class="search-title"><?php the_title(); ?></h1>
+	<h1 class="search-title"> <?php single_cat_title(); ?> </h1>
 	<br><hr class="whitehr" /><br>
 	<?php if ( have_posts() ) : ?>
 	
