@@ -13,13 +13,14 @@
 		
 		<?php while ( have_posts() ) : the_post(); ?><div class="row">
    		<div class="large-4 columns">
-   		<?php
+   				<?php
 					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-					  the_post_thumbnail(large); },
+					  the_post_thumbnail(large); 
+					}
 					else {
-						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png" />'
-					};
-?>
+						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png">';
+					}
+				?>
 
    		 the_post_thumbnail('large');?></div>
 		<div class="large-8 columns"><?php get_template_part( 'content', get_post_format() ); ?>
