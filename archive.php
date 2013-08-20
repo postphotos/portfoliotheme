@@ -18,7 +18,7 @@
 					  the_post_thumbnail(large); 
 					}
 					else {
-						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png">';
+						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png" class="small-centered">';
 					}
 				?>
 
