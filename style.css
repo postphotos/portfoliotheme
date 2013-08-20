@@ -23,11 +23,16 @@ li.name h1, li.name h1 a {
 	color: #f00;
 }
 
+h4.subheader {
+	text-transform: uppercase;
+    margin-top: -23px;
+}
 
+@media (min-width: 780px) {
 h4.subheader {
 	text-transform: uppercase;
     margin-top: -25px;
-}
+}}
 
 body {
 	background: #7F8C8D;
