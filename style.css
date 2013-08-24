@@ -74,3 +74,7 @@ h2, h2 * {
 .search-title, .entry-title {
 	color: #3498DB;
 }
+
+.footerfix {
+	min-height: 75px;
+}
