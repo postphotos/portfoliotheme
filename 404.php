@@ -13,11 +13,11 @@
 					<br>
 					<br><strong>Or, maybe you just wanted to see a random unicorn video!</strong></p>
 					<?php
-$min=1;  $max=8;  //the random parameters
+$min=1;  $max=14;  //the random parameters
 ?>
 <object width="746" height="413"><param name="movie" value="http://www.youtube.com/p/CAAA1242CA3E37B4?version=3&hl=es_ES&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
 <?php
-//in index the script randomize the numbre between $min $max
+//in index the script randomize the number between $min $max
 echo "
 <iframe src=\"http://www.youtube.com/embed/videoseries?list=PL2AC71FC1DAB7F216&autoplay=1&index=".rand($min,$max)."\" 
 width=\"100%\" height=\"500\" frameborder=\"0\"></iframe>
