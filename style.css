@@ -78,3 +78,7 @@ h2, h2 * {
 .footerfix {
 	min-height: 75px;
 }
+
+header p {
+	text-align: center;
+}
