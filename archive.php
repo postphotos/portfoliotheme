@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Row for main content area -->
-	<div class="small-12 large-10 large-centered columns" role="main">
+	<div class="small-12 large-10 large-centered columns shadow" role="main">
 	
 
 	<h1 class="search-title"> <?php single_cat_title(); ?> </h1>
