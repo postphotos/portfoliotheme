@@ -99,10 +99,3 @@ h2, h2 * {
 header p {
 	text-align: center;
 }
-
-.shadow {
-	-webkit-box-shadow: 0 1px 9px 1px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0 1px 9px 1px rgba(0,0,0,0.2);
-	box-shadow: 0 1px 9px 1px rgba(0,0,0,0.2);
-
-}
