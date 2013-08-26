@@ -35,7 +35,14 @@ h4.subheader {
 }}
 
 body {
-	background: #7F8C8D;
+	/* background: #7F8C8D; */
+	background-image: -webkit-gradient(radial, center center, 0, center center, 212, from(rgba(22,127,232,0.58)), to(rgba(0,60,123,0.58) 59%));
+background-image: -webkit-radial-gradient(center center, cover, rgba(22,127,232,0.58), rgba(0,60,123,0.58) 59%);
+background-image: -moz-radial-gradient(center center, cover, rgba(22,127,232,0.58), rgba(0,60,123,0.58) 59%);
+background-image: -o-radial-gradient(center center, cover, rgba(22,127,232,0.58), rgba(0,60,123,0.58) 59%);
+background-image: -ms-radial-gradient(center center, cover, rgba(22,127,232,0.58), rgba(0,60,123,0.58) 59%);
+background-image: radial-gradient(center center, cover, rgba(22,127,232,0.58), rgba(0,60,123,0.58) 59%);
+
 }
 
 .row:not(.collapse), header.row, .gray {
