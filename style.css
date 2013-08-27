@@ -35,7 +35,8 @@ h4.subheader {
 }}
 
 body {
-	/* background: #7F8C8D; */
+	font-family: 'Roboto', sans-serif;
+	background: #7F8C8D;
 	/* IE10 Consumer Preview */ 
 background-image: -ms-radial-gradient(center bottom, ellipse farthest-corner, #7F8C8D 10%, #ECF0F1 90%);
 
