@@ -34,7 +34,7 @@ h4.subheader {
     margin-top: -32px;
 }}
 
-body {
+body, .footerfix {
 	font-family: 'Roboto', sans-serif;
 	background: #7F8C8D;
 	/* IE10 Consumer Preview */ 
