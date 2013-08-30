@@ -23,17 +23,7 @@
 				?>
 
    		 </div>
-		<div class="large-8 columns"><?php
-while ( have_posts() ) : the_post();
-	echo '<h2>';
-	echo '<a href="';  
-	get_permalink(); 
-	echo '">';  
-	the_title();
-	echo '</a></h2>';
-
-endwhile;
-?>
+		<div class="large-8 columns"><?php get_template_part( 'content', get_post_format() ); ?>
 		</div></div>
 		<br><hr class="whitehr" /><br>
 		<?php endwhile; ?>
