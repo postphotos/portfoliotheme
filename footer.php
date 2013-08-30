@@ -12,7 +12,7 @@
 	</div>
 	
 	<div class="large-9 columns gray footerfix">
-		<?php wp_nav_menu(array('theme_location' => 'utility', 'container' => false, 'menu_class' => 'inline-list right')); ?>
+		Menu: <?php wp_nav_menu(array('theme_location' => 'utility', 'container' => false, 'menu_class' => 'inline-list right')); ?>
 	</div>
 
 	</div>
