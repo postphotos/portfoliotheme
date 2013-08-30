@@ -11,7 +11,7 @@
 				<p><?php echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('Updated %s at %s.', 'reverie'), get_the_time('l, F jS, Y'), get_the_time()) .'</time>';?></p>
 			</header>
 			<div class="entry-content">
-				<!--more-->
+				<?php echo '<!--more-->' ?>
 				<?php the_content(); ?>
 			</div>
 			<footer>
