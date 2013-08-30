@@ -23,7 +23,11 @@
 				?>
 
    		 </div>
-		<div class="large-8 columns"><?php get_template_part( 'content', get_post_format() ); ?>
+		<div class="large-8 columns">
+				<h2 class="entry-title"><?php the_title(); ?></h2>
+				<p><?php echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('Updated %s at %s.', 'reverie'), get_the_time('l, F jS, Y'), get_the_time()) .'</time>';?></p>
+
+		<!-- <?php get_template_part( 'content', get_post_format() ); ?> -->
 		</div></div>
 		<br><hr class="whitehr" /><br>
 		<?php endwhile; ?>
