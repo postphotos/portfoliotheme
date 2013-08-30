@@ -24,7 +24,7 @@
 
    		 </div>
 		<div class="large-8 columns">
-				<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+				<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> | works by Leo Postovoit"><?php the_title(); ?></a></h2>
 				<p><?php echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('Updated %s at %s.', 'reverie'), get_the_time('l, F jS, Y'), get_the_time()) .'</time>';?></p>
 
 		<!-- <?php get_template_part( 'content', get_post_format() ); ?> -->
