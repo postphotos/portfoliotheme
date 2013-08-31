@@ -11,9 +11,9 @@
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?><div class="row">
    		<div class="large-4 columns">
-   		<?php the_post_thumbnail('large');?></div>
+   		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> | works by Leo Postovoit"><?php the_post_thumbnail('large');?></a></div>
 		<div class="large-8 columns"><h2><?php echo get_the_title(); ?></h2>
-		<h3><a href=" <?php $permalink = get_permalink( $id ); ?>" title="<?php echo get_the_title(); ?>">View here</h3></p>
+		<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> | works by Leo Postovoit">View here</h3></p>
 
 		</div></div>
 		<br><hr class="whitehr" /><br>
