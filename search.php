@@ -12,11 +12,11 @@
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class="row">
    		<div class="large-4 columns center" style="text-align: center;">
-   				<a href='<?php the_permalink() ?>' title="<php the_title() ?> ' | works by Leo Postovoit">
+   				<a href='<?php the_permalink() ?>' title="<?php the_title() ?> | works by Leo Postovoit">
    				<?php
 					if ( has_post_thumbnail() ) {
 					
-					  the_post_thumbnail(large) . '</a>';
+					  the_post_thumbnail(large);
 					}
 					else {
 						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png">';
