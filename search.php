@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Row for main content area -->
-	<div class="small-12 large-10 large-centered columns" role="main">
+	<div class="small-12 large-10 large-centered center columns" role="main">
 	
 		<h1 class="search-title"><?php _e('Showing search results for', 'reverie'); ?> "<?php echo get_search_query(); ?>"</h1>
 		<br><hr class="whitehr" /><br>
@@ -10,9 +10,9 @@
 	
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?><div class="row">
-   		<div class="large-4 columns">
+   		<div class="large-4 columns center">
    		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> | works by Leo Postovoit"><?php the_post_thumbnail('large');?></a></div>
-		<div class="large-8 columns"><h2><?php echo get_the_title(); ?></h2>
+		<div class="large-8 columns center"><h2><?php echo get_the_title(); ?></h2>
 		<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> | works by Leo Postovoit">View here</h3></p>
 
 		</div></div>

@@ -15,7 +15,7 @@ h1.search-title {
 	font-family: 'Roboto', sans-serif;
 }
 
-h1, h4 {
+h1, h4, .center {
 	text-align: center; 
 }
 
