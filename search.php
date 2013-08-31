@@ -14,7 +14,7 @@
    		<div class="large-4 columns center" style="text-align: center;">
    				<?php
 					if ( has_post_thumbnail() ) {
-					  echo '<a href="',the_permalink(),'"title="'the_title(),' | works by Leo Postovoit">',the_post_thumbnail(large),'</a>';
+					  echo '<a href="'. the_permalink(). '"title="'the_title(). ' | works by Leo Postovoit">'. the_post_thumbnail(large). '</a>';
 					}
 					else {
 						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png">';
