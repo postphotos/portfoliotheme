@@ -15,7 +15,7 @@
    		<div class="large-4 columns" style="text-align: center;">
    				<?php
 					if ( has_post_thumbnail() ) {
-					  echo '<a href="'the_permalink(); '" title="' the_title();' | works by Leo Postovoit">' the_post_thumbnail(large); '</a>'
+					  echo '<a href="'the_permalink(); '" title="' the_title();' | works by Leo Postovoit">' the_post_thumbnail(large); '</a>';
 
 					}
 					else {

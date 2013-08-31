@@ -9,9 +9,22 @@
 	<?php if ( have_posts() ) : ?>
 	
 		<?php /* Start the Loop */ ?>
-		<?php while ( have_posts() ) : the_post(); ?><div class="row">
-   		<div class="large-4 columns center">
-   		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> | works by Leo Postovoit"><?php the_post_thumbnail('large');?></a></div>
+		<?php while ( have_posts() ) : the_post(); ?>
+			<div class="row">
+   		<div class="large-4 columns center" style="text-align: center;">
+   				<?php
+					if ( has_post_thumbnail() ) {
+					  echo '<a href="'the_permalink(); '" title="' the_title();' | works by Leo Postovoit">' the_post_thumbnail(large); '</a>';
+
+					}
+					else {
+						echo '<img src="http://postphotos.us/p/wp-content/themes/portfoliotheme/favicon.png">';
+					}
+				?>
+
+   		 </div>
+
+
 		<div class="large-8 columns center"><h2><?php echo get_the_title(); ?></h2>
 		<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> | works by Leo Postovoit">View here</h3></p>
 
