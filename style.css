@@ -100,3 +100,18 @@ h2, h2 * {
 header p {
 	text-align: center;
 }
+
+@font-face {
+    font-family: 'postphotos';
+    src: url('http://postphotos.us/p/web-fonts/postphotossocial.eot');
+    src: url('http://postphotos.us/p/web-fonts/postphotossocial.eot?#iefix') format('embedded-opentype'),
+         url('http://postphotos.us/p/web-fonts/postphotossocial.woff') format('woff'),
+         url('http://postphotos.us/p/web-fonts/postphotossocial.ttf') format('truetype'),
+         url('http://postphotos.us/p/web-fonts/postphotossocial.svg#postphotos-socialsocial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a>span.icon { 
+        font-family: 'postphotos';
+}
